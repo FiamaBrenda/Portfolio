@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <section class="pag1">
+    <section class="pag1" data-scroll="home">
         <div class="LE">
             <div  class="minha_foto">
                 <img src="./assets/Eu.svg" alt="Minha Foto">
@@ -24,9 +24,6 @@
                     <a href="https://github.com/FiamaBrenda">
                         <img class="imgIni" src="./assets/github.png" alt="github"> 
                     </a>
-                    <a href="">
-                        <img class="imgIni" src="./assets/git.png" alt="git">
-                    </a>
                     <a href="https://www.linkedin.com/in/fiama-brenda-santos-185437199/">
                         <img class="imgIni" src="./assets/Linkedin.png" alt="linkedin">
                     </a>
@@ -34,18 +31,39 @@
         </div>
         <div class="LD">
             <div class="botoes">
-                <button>Home</button><br>
-                <button>Quem sou Eu</button><br>
-                <button>Experiência</button><br>
-                <button>Cursos</button><br>
-                <button>Contato</button><br>
+                <button data-scroll-to="home">Home</button><br>
+                <button data-scroll-to="sobremim">Quem sou Eu</button><br>
+                <button data-scroll-to="experiencia">Experiência</button><br>
+                <button data-scroll-to="cursos">Cursos</button><br>
+                <button data-scroll-to="contato">Contato</button><br>
             </div>    
-            <a class="qrc" href="">
+            <a class="qrc">
             <img src="./assets/QRCODE.svg" alt="QRCode">
             </a>           
         </div>
     </section>
-    <section class="pag2">
+    <section class="pag2" data-scroll="sobremim">
+        <header>
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <button class="navbar__action active" data-scroll-to="home">Home</button>
+                </li>
+                <li class="navbar__item">
+                    <button class="navbar__action" data-scroll-to="sobremim">Quem eu Sou</button>
+                </li>
+                <li class="navbar__item">
+                    <button class="navbar__action" data-scroll-to="experiencia">Experiência</button>
+                </li>
+                <li class="navbar__item">
+                    <button class="navbar__action" data-scroll-to="cursos">Cursos</button>
+                </li>
+                <li class="navbar__item">
+                    <button class="navbar__action" data-scroll-to="contato">Contato</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
         <div>
             <h1>Sobre Mim</h1></br></br>
             <span>
@@ -58,7 +76,28 @@
             </span>
         </div>
     </section>
-    <section class="pag3">
+    <section class="pag3" data-scroll="experiencia">
+        <header>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <button class="navbar__action active" data-scroll-to="home">Home</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="sobremim">Quem eu Sou</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="experiencia">Experiência</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="cursos">Cursos</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="contato">Contato</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div >
         <h1>Experiência</h1></br></br>
             <h2>Analista de Suporte | ERP TOTVS - Protheus</h2></br>
@@ -75,7 +114,28 @@
             Configuração e atualização de máquinas e periféricos como impressora, impressora não fiscal, SAT e Pin pad.</span>
         </div>
     </section>
-    <section class="pag4">
+    <section class="pag4" data-scroll="cursos">
+        <header>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <button class="navbar__action active" data-scroll-to="home">Home</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="sobremim">Quem eu Sou</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="experiencia">Experiência</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="cursos">Cursos</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="contato">Contato</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <div>
             <h1>Formação Acadêmica</h1></br></br>
             <span>FATEC ZONA SUL - DOM PAULO EVARISTO ARNS </br>
@@ -126,22 +186,52 @@
             </div>
         </div>
     </section>
-    <section class="pag5">
+    <section class="pag5" data-scroll="contato">
+        <header></br>
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <button class="navbar__action active" data-scroll-to="home">Home</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="sobremim">Quem eu Sou</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="experiencia">Experiência</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="cursos">Cursos</button>
+                    </li>
+                    <li class="navbar__item">
+                        <button class="navbar__action" data-scroll-to="contato">Contato</button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
         <h1>Contato</h1></br></br>
-        <div class="form">
-        <form>
-            <label for="name">Nome</label>
-            <input id="name" type="text" placeholder="Digite seu Nome">
-            <label for="tel">Telefone</label>
-            <input id="tel" type="tel" placeholder="Digite seu telefone">
-            <label for="email">E-mail</label>
-            <input id="email" type="email" placeholder="Digite seu E-mail">
-            <label for="assunto">Assunto</label>
-            <input id="assunto" type="text" ></br>
-            <textarea name="message" rows="10" cols="30" placeholder="Deixe sua Mensagem"></textarea>
-            <button type="submit">Enviar</button>
+        <div class="formfim">
+        <form id="form">
+            <fieldset></br>
+            <label for="name">Nome: </label>
+            <input id="name" type="text" placeholder=" Digite seu Nome"></br></br>
+            <label for="tel">Telefone: </label>
+            <input id="tel" type="tel" placeholder=" Digite seu telefone"></br></br>
+            <label for="email">E-mail: </label>
+            <input id="email" type="email" placeholder=" Digite seu E-mail"></br></br>
+            <label for="assunto">Assunto: </label>
+            <input id="assunto" type="text" placeholder=" Assunto" ></br></br>
+            <label for="textarea">Mensagem: </label>
+            <textarea name="message" rows="10" cols="30" placeholder=" Deixe sua Mensagem"></textarea></br>
+            <!-- <img class="img_msg" src="./assets/msg.png" alt="Me deixe uma mesnsagem"> -->
+            <button type="submit" value="enviar">Enviar</button></br>
+        </fieldset></br>
         </form>
     </div>
     </section>
+    <footer class="footer">
+        <h3>Obrigada!!!</h3>
+        <p>&copy; Fiama Santos - 2023</p></br></br>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
