@@ -1,3 +1,28 @@
+// function sendEmail() {
+//     const mensagem = document.getElementById('mensagem').value;
+//     const email = document.getElementById('email').value;
+//     const assunto = document.getElementById('assunto').value; 
+//     const telefone = document.getElementById('telefone').value;
+//     const nome = document.getElementById('nome').value;
+
+//     Email.send({
+//         Host:"smtp.gmail.com",
+//         Username: "sender@email_address.com",
+//         Password:"Enter your password",
+//         To: 'fiamabrenda94@gmail.com',
+//         From: `${email}`,
+//         Subject:`${assunto}`,
+//         Body: `${mensagem}`,
+//         Telefone:` ${telefone}`,
+//         Nome: `${nome} `,
+//     })
+//         .then(function(message){
+//                 alert("E-mail enviado com sucesso")
+//         }).catch(() => {
+//             alert('Houve um problema no servidor')
+//         });
+// }
+
 function handleScrollTo(event) {
     event.preventDefault();
 
@@ -47,3 +72,4 @@ function handleScroll() {
 }
 
 window.addEventListener('scroll', handleScroll);
+

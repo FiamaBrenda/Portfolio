@@ -54,9 +54,9 @@ h4{
     margin-right: 50px;
     justify-content: space-evenly;
 }
-.setas: hover{
+/* .setas: hover{
 
-} 
+}  */
 .LD{
     display:flex;
     flex-direction: column;
@@ -71,11 +71,11 @@ h4{
     display: flex;
     margin-top: 0.rem;
 }
-
+/* 
 .qrc :hover{
 
 
-    }
+    } */
 .botoes button {
     background-color: rgba(217, 217, 217, 0.15);
     border: none;
@@ -140,6 +140,12 @@ h4{
     margin-right: 4rem;
     margin-top: 3px;   
 }
+.pag4{
+    background: url(/assets/fundo4.png) no-repeat ;
+    background-size: cover; 
+    width: 100%;
+    height: 630px;
+}
 .pag4 h1{
 font-family: 'Dancing Script';
 font-size: 35px;
@@ -153,13 +159,16 @@ margin-left: 4rem;
     margin-right: 4rem;
     margin-top: 3px;   
 }
+/* .img_barra img{
+    width: 80px;
+    height: 80px;
+} */
 .img_barra{
     display: flex;
     justify-content: space-around ;
     margin-right: 7rem;
     margin-left: 7rem;
-    margin-bottom: 30px;
-
+    margin-bottom: 20px;
 }
 .img_esq{
     display: flex;
@@ -257,7 +266,8 @@ margin-left: 4rem;
      20% { width: 20%}
  }
 .pag5{
-    background-color: #C9C9C9;
+    background: url(/assets/fundo5.png) no-repeat ;
+    background-size: cover; 
     width: 100%;
     height: 625px;
 }
@@ -275,14 +285,16 @@ margin-left: 4rem;
     align-items: center;
     font-weight: bold;
 }
-.form input{
+.formulario >  input{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 280px;
     height: 30px;
-    border: none;
-    border-radius: 6px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px 1px 6px 6px;
 } 
 
 .form textarea {
@@ -292,13 +304,13 @@ margin-left: 4rem;
     background-position: 13rem 60px;
     background-repeat: no-repeat; 
     margin-top: 7px;
-    border: none;
+    border-color: #000000;
     border-radius: 6px;
 }
 .form button{
     font-size: 20px;
     font-family: 'Dancing Script';
-    border: none;
+    border-color: #000000;
     border-radius: 8px;
     margin-top: 7px;
     margin-left: 60px;
@@ -312,13 +324,25 @@ margin-left: 4rem;
     color: #C9C9C9;
 }
 .footer {
-    background-color: #fce4bedc;
-    color: #f79b08;
+    background-color: #bfb2e0;
+    ;
+    ;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-}  
+    width: 100%;
+    height: 80px;
+
+}
+.footer button{
+    margin-left: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-color: aqua;
+    border-radius: 8px;
+} 
+
 /* ------------------------------------------------------------testando */
 header {
 
