@@ -69,13 +69,13 @@ h4{
     justify-content: end;
     width: 100%;
     display: flex;
+    margin-right: 1.5rem;
     margin-top: 0.rem;
 }
-/* 
+
 .qrc :hover{
-
-
-    } */
+    transform: rotate(50deg);
+    }
 .botoes button {
     background-color: rgba(217, 217, 217, 0.15);
     border: none;
@@ -324,15 +324,14 @@ margin-left: 4rem;
     color: #C9C9C9;
 }
 .footer {
-    background-color: #bfb2e0;
-    ;
-    ;
+    background-image: url('./assets/footer2.png');
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 105%;
     height: 80px;
-
+    color: rgb(168, 235, 124);
 }
 .footer button{
     margin-left: 30px;
@@ -377,7 +376,7 @@ header {
     cursor: pointer;
 }
   
-@media(max-width: 700px){
+@media(max-width: 800px){
     .pag1 {
         display: flex;
         flex-direction: column;
@@ -402,7 +401,7 @@ header {
     }
     .qrc{
         margin-top: 1rem;
-        margin-right: 1.5rem;
+       
     }
     .qrc img{
         width: 9rem;
